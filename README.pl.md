@@ -2,6 +2,27 @@
 
 # Generacja obrazów znaków drogowych wykorzystując sieć GAN
 
+**Zależności**
+
+Python 3.9.13
+
+matplotlib 3.8.3
+
+notebook 7.1.2
+
+numpy 1.24.1
+
+pandas  2.2.1
+
+scikit-learn 1.4.1.post1 Python 3.9.13
+
+torch 2.2.1+cu118
+
+**Jak uruchomić**
+1. Pobierz dataset z https://www.kaggle.com/datasets/flo2607/traffic-signs-classification
+2. Umieść folder myData w tym samym folderze co GAN.ipynb
+3. Uruchom GAN.ipynb w Jupyter Notebook
+
 ## Przegląd
 Celem tego projektu jest zbudowanie sieci neuronowej ‘generatywnych przeciwników’ (GAN -Generative Adversarial Network) do generowania obrazów znaków drogowych. GAN jest zaimplementowany przy użyciu Pythona z biblioteką Pytorch. Model jest szkolony na oznaczonym zbiorze danych zawierającym obrazy 42 różnych znaków drogowych o wymiarach 32x32x3 (zbiór danych zawiera 42 foldery ze zdjęciami znaków z różnych perspektyw). Niska rozdzielczość obrazów jest spowodowana ograniczonym czasem i mocą obliczeniową możliwą do przeznaczenia na trenowanie sieci. Projekt ten służy jako ćwiczenie edukacyjne i praktyczne zastosowanie technik głębokiego uczenia się do zadań generowania obrazów.
 
