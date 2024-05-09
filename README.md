@@ -1,6 +1,27 @@
 [![pl](https://img.shields.io/badge/język-PL-red.svg)](https://github.com/pzemla/Road-sign-images-generation-using-GAN/blob/main/README.pl.md)
 # Road sign images generation using GAN
 
+**Dependencies**
+
+Python 3.9.13
+
+matplotlib 3.8.3
+
+notebook 7.1.2
+
+numpy 1.24.1
+
+pandas  2.2.1
+
+scikit-learn 1.4.1.post1 Python 3.9.13
+
+torch 2.2.1+cu118
+
+**How to run**
+1. Download dataset from https://www.kaggle.com/datasets/flo2607/traffic-signs-classification
+2. Put directory myData in together in directory with GAN.ipynb
+3. Run GAN.ipynb in Jupyter Notebook
+
 ## Overview
 The aim of this project is to build a generative adversarial network (GAN) to generate images of road signs. GAN is implemented using Python with the Pytorch library. The model is trained on a labeled dataset containing images of 42 different road signs with dimensions of 32x32x3 (the dataset contains 42 folders with photos of signs from different perspectives). The low resolution of images is caused by limited time and computing power available for training the network. This project serves as an educational exercise and practical application of deep learning techniques to image generation tasks.
 
