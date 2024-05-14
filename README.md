@@ -104,3 +104,7 @@ Sample images generated after a specified number of training epochs:
 ![image](https://github.com/pzemla/Road-sign-images-generation-using-GAN/assets/135070990/5ccfc09d-23a9-41be-80c4-a33dea4f2585)
 
 The generated images of road signs after training the generator resemble real images of road signs in shape and color. In most images, the interior of the sign (where the image or text should be) is blurred. This may be due to poor image quality in the dataset, too many different interiors of road signs (which can be resolved by using a conditional GAN), neural network size, or suboptimal parameter settings. Some of the images are almost completely darkened, this is probably not caused by the training of the neural network, but by the dataset which contains photos of signs taken at night. The background is blurred because the road sign images have many different types of backgrounds (white background, black/night background, normal background, blurred background), so discriminator does not focus on it, and because of that generator does not learn to create a realistic background.
+
+## License
+
+This project is licensed under the MIT License - see the LICENSE file for details.
