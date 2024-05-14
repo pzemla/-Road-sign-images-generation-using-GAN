@@ -104,3 +104,7 @@ Przykładowe wygenerowane obrazy po określonej ilości epok treningu.
 ![image](https://github.com/pzemla/Road-sign-images-generation-using-GAN/assets/135070990/5ccfc09d-23a9-41be-80c4-a33dea4f2585)
 
 Wygenerowane obrazy znaków drogowych po wytrenowaniu generatora przypominają kształtem i kolorystyką prawdziwe obrazy znaków drogowych. W większości obrazów wnętrze znaku (gdzie powinien znajdować się obrazek lub tekst) jest rozmazane. Może to być spowodowane niską jakością obrazów w datasecie, zbyt duża liczba różniących się wnętrz znaków (co można rozwiązać poprzez zastosowanie sieci conditional GAN), wielkością sieci lub nieoptymalnymi ustawieniami parametrów. Część obrazów jest niemal niewidoczna, jest prawdopodobnie nie jest spowodowane przy treningu sieci neuronowej, tylko przez dataset który zawiera zdjęcia znaków robione w nocy. Tło jest rozmazane, ponieważ obrazy znaków mają wiele różnych rodzajów tła (białe tło, czarne/nocne tło, normalne tło, rozmazane tło), przez co dyskryminator się na nim nie skupia, więc generator nie uczy się tworzyć realistycznego tła.
+
+## Licencja
+
+Ten projekt jest dostępny na licencji MIT - zobacz plik LICENSE dla szczegółów.
