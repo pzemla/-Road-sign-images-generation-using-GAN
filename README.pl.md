@@ -30,9 +30,10 @@ Poniżej są zdjęcia przykładowych obrazów:
 
 ![image](https://github.com/pzemla/Road-sign-images-generation-using-GAN/assets/135070990/792960b2-49cf-486b-a8ab-ed02187661fd)
 ![image](https://github.com/pzemla/Road-sign-images-generation-using-GAN/assets/135070990/ac42f213-ca5c-47e7-8a3f-9a4e955e6ab2)
-![image](https://github.com/pzemla/Road-sign-images-generation-using-GAN/assets/135070990/66345175-ee70-45e0-8584-4718746b4412)
 
+![image](https://github.com/pzemla/Road-sign-images-generation-using-GAN/assets/135070990/66345175-ee70-45e0-8584-4718746b4412)
 ![image](https://github.com/pzemla/Road-sign-images-generation-using-GAN/assets/135070990/4881b98d-4607-4530-bee8-caff6c8547a5)
+
 ![image](https://github.com/pzemla/Road-sign-images-generation-using-GAN/assets/135070990/85d1c0f7-620a-45ce-9476-387fd9b9e14f)
 ![image](https://github.com/pzemla/Road-sign-images-generation-using-GAN/assets/135070990/cf30cbb8-fc62-483b-8dc2-36df41ef23d8)
 
